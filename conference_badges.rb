@@ -1,4 +1,4 @@
-require "pry"
+require 'pry'
 
 def badge_maker(name)
   phrase = "Hello, my name is #{name}."
@@ -23,7 +23,7 @@ def assign_rooms(array)
     counter += 1
     phrase = "Hello, #{name}! You'll be assigned to room #{counter}!"
     room_array << phrase
-    #binding.pry
+    binding.pry
   end
   room_array_glob = room_array
 room_array
